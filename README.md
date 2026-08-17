@@ -1,2 +1,5 @@
 # AI-Resume-Copilot
-Built AI Resume Copilot app which help users to improve resume according to their job interest. You can upload your resume and tell what role you are looking for ? It will read your resume and feedback you with Skills, Missing Skills, Roadmap and Interview Question list Technologies used were Python-Flask, HTML, CSS, OpenAI (gpt-4.1-mini) 
+Built AI Resume Copilot app which help users to improve resume according to their job interest. You can upload your resume and tell what role you are looking for ? It will read your resume and feedback you with Skills, Missing Skills, Roadmap and Interview Question list.
+Technologies used were Python-Flask, HTML, CSS, OpenAI (gpt-4.1-mini) 
+Login, SignUp, Dashboard and History page is built for users who will upload their resumes and find specific career pathway
+User login details, results, resume data will be stored in TiDB Cloud database
