@@ -1,0 +1,34 @@
+1.step - setup
+2.database connection
+
+Activate venv : source venv/bin/activate
+
+mysqlclient
+mysql+mysqldb://HeBUiXvRyM8TAmx.root:9FUJ96RoV7lAuYuZ@gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/test?ssl_mode=VERIFY_IDENTITY&ssl_ca=/etc/ssl/cert.pem
+
+Password
+9FUJ96RoV7lAuYuZ
+
+
+# Check current environment
+python --version
+
+# Export packages
+pip freeze > requirements.txt
+
+# Create Python 3.6 venv
+/usr/local/bin/python3.6 -m venv .venv36
+
+# Activate it
+source .venv36/bin/activate
+
+# Install packages
+pip install -r requirements.txt
+
+
+python3.6 -m pip install mysqlclient
+
+#API key
+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
+
+export OPENAI_API_KEY="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"
